@@ -1,3 +1,7 @@
+# project-goflow © 2025 Greyson (gmangameing29)
+# Licensed under the GrowFlow Open License (GOL-1.0)
+# You may use and remix this code, but NOT rebrand or republish as your own.
+
 # 🌾 project-goflow – Solving World Hunger with AI, Drones, and a Dog Named Chatdoggo 🐶
 
 Welcome to project-goflow, the future of food systems. We’re using **Python, sensors, AI, and drone tech** to build an intelligent system that grows food smarter, tracks it better, and gets it to the people who need it most. Powered by **Chatdoggo**, the world’s first hunger-fighting digital pup. 🐾
