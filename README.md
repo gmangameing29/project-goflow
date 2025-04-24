@@ -17,7 +17,11 @@ Welcome to GrowFlow, the future of food systems. We’re using **Python, sensors
 
 Clone this repo and run the main system:
 
+---
+
+to report isues contact: gsmith20042@gmail.com
+
 ```bash
-git clone https://github.com/gmangameing29/project-goflow/tree/main
+git clone https://github.com/gmangameing29/project-goflow.md
 cd growflow
 python growflow.py
