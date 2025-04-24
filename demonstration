@@ -1,0 +1,50 @@
+# project-goflow © 2025 Greyson (gmangameing29)
+# Licensed under the GrowFlow Open License (GOL-1.0)
+# You may use and remix this code, but NOT rebrand or republish as your own.
+
+import time
+import random
+
+print("\n🌾 Welcome to the GrowFlow System Simulation!")
+print("Feeding the world with AI, sensors, drones — and Chatdoggo 🐶\n")
+
+time.sleep(1)
+print("🌱 Initializing SmartFarm...")
+time.sleep(1)
+print("📦 Connecting to Food Bank Network...")
+time.sleep(1)
+print("🐶 Booting up Chatdoggo AI...")
+time.sleep(1)
+print("✅ System Ready!\n")
+
+class Simulation:
+    def __init__(self):
+        self.day = 0
+        self.food_delivered = 0
+        self.hunger_zones = random.randint(1, 3)
+
+    def next_day(self):
+        self.day += 1
+        print(f"\n🌅 Day {self.day} Simulation Report:")
+        soil = random.randint(40, 80)
+        light = random.randint(50, 100)
+        crops = 1 if soil > 50 and light > 60 else 0
+        print(f"  🌾 Soil Moisture: {soil}%, Light Level: {light}%")
+        print(f"  🌽 Crops Grown Today: {crops}")
+
+        if crops:
+            self.food_delivered += crops
+            print(f"  🚚 Food sent to {self.hunger_zones} hunger zones")
+            print(f"  ✈️  Chatdoggo deployed drones!")
+        else:
+            print("  ⚠️ No crops today — drought risk.")
+
+        print(f"  📦 Total Meals Delivered: {self.food_delivered}")
+
+sim = Simulation()
+for _ in range(5):
+    sim.next_day()
+    time.sleep(2)
+
+print("\n✅ Simulation Complete — GrowFlow proves the power of tech + care.")
+print("🌍 Let’s build a world where no one goes hungry.")
